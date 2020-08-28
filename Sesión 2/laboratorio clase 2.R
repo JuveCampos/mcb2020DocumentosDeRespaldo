@@ -67,7 +67,7 @@ foo2 <- 81
 
 # Llamamos a la librería (nos van a salir warnings)
 library(tidyverse)
-# Llamamos a la librería, sin provocar conflictos
+# Llamamos a la librería, sin que nos anuncie los warnings
 library(tidyverse, warn.conflicts = FALSE)
 
 # NOTA! Los warnings solo son alertas, no son errores. 
